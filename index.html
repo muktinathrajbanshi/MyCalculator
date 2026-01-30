@@ -6,7 +6,40 @@
     <title>Calculatr App</title>
   </head>
   <body>
-    <h1>Calculator App!</h1>
+    <div class="formstyle">
+      <form name="forms">
+        <input type="text" name="answers" /> <br />
+
+        <input type="button" value=" 1 " onclick="forms.answers.value += '1'" />
+        <input type="button" value=" 2 " onclick="forms.answers.value += '2'" />
+        <input type="button" value=" 3 " onclick="forms.answers.value += '3'" />
+
+        <br />
+
+        <input type="button" value=" 4 " onclick="forms.answers.value += '4'" />
+        <input type="button" value=" 5 " onclick="forms.answers.value += '5'" />
+        <input type="button" value=" 6 " onclick="forms.answers.value += '6'" />
+
+        <br />
+
+        <input type="button" value=" 7 " onclick="forms.answers.value += '7'" />
+        <input type="button" value=" 8 " onclick="forms.answers.value += '8'" />
+        <input type="button" value=" 9 " onclick="forms.answers.value += '9'" />
+
+        <br />
+
+        <input type="button" value=" + " onclick="forms.answers.value += '+'" />
+        <input type="button" value=" - " onclick="forms.answers.value += '-'" />
+        <input type="button" value=" * " onclick="forms.answers.value += '*'" />
+
+        <br />
+
+        <input type="button" value=" / " onclick="forms.answers.value += '/'" />
+        <input type="button" value=" 0 " onclick="forms.answers.value += '0'" />
+        <input type="button" value=" = " onclick="forms.answers.value += '='" />
+      </form>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
