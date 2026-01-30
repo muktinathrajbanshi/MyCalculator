@@ -36,7 +36,20 @@
 
         <input type="button" value=" / " onclick="forms.answers.value += '/'" />
         <input type="button" value=" 0 " onclick="forms.answers.value += '0'" />
-        <input type="button" value=" = " onclick="forms.answers.value += '='" />
+        <input
+          type="button"
+          value=" = "
+          onclick="forms.answers.value = eval(forms.answers.value)"
+        />
+
+        <br />
+
+        <input
+          type="button"
+          value="Clear All"
+          onclick="forms.answers.value = ''"
+          id="clear"
+        />
       </form>
     </div>
 
