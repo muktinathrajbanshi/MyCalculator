@@ -50,20 +50,12 @@
 
         <br />
 
-        <input
-          type="button"
-          value=" e "
-          onclick="forms.answers.value += Math.E.toFixed(8)"
-        />
+        <input type="button" value=" e " onclick="forms.answers.value += 'e'" />
 
         <input type="button" value=" 0 " onclick="forms.answers.value += '0'" />
         <input type="button" value=" . " onclick="forms.answers.value += '.'" />
 
-        <input
-          type="button"
-          value=" = "
-          onclick="forms.answers.value = eval(forms.answers.value)"
-        />
+        <input type="button" value=" = " onclick="calculate()" />
 
         <br />
       </form>
